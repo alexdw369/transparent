@@ -70,10 +70,11 @@ transparent:
 
   #Cards
   ha-card-background: 'var(--main-color-tp)'                       #Most lovelace card background colors
+  ha-card-backdrop-filter: blur(5px)
   background-card-color: 'red'                                   
   card-background-color: 'var(--main-color-4-less-tp)'             #Background elsewhere (Blueprints, automations, scenes, scripts, entities, ?date / time picker? etc)
   paper-listbox-background-color: 'var(--main-color-2)'            #Used at least in integrations page where an integration has multiple devices in a list 
-  mdc-theme-surface: 'var(--main-color-less-tp)'     #re-add -tp                 #More info popup card background at least, also dropdown background color
+  mdc-theme-surface: 'var(--main-color-less-tp)'                   #re-add -tp       #More info popup card background at least, also dropdown background color
   #mdc-theme-surface: 'var(--main-color-2)'
   round-slider-path-color: 'var(--main-color-less-tp)'             #Used at least as the track color for thermostat cards
   mini-media-player-button-color: 'var(--main-color-tp)'           #Custom card
